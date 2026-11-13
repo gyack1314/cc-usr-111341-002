@@ -3,4 +3,4 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 COPY . .
-CMD ["python", "-m", "coverage_data.cli", "data/normal.json"]
+CMD ["python", "-I", "tools/run_analysis.py", "analyze", "data/normal.json"]
