@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "tables": {
+    "sample": {
+      "file": "boundary-sample.jsonl",
+      "sha256": "d50244737780eb5b6ad554d7799fd95c1129d6c82ebac881aa81433a0d21f47c",
+      "bytes": 322,
+      "rows": 3,
+      "fields": [
+        "id",
+        "area",
+        "age",
+        "cluster",
+        "inclusion_probability",
+        "consented"
+      ]
+    },
+    "contacts": {
+      "file": "boundary-contacts.jsonl",
+      "sha256": "913f609ed3bd3f0ba35466e0280977f8161b91fce9952f70ddd367868ebc7ccd",
+      "bytes": 230,
+      "rows": 3,
+      "fields": [
+        "id",
+        "person",
+        "attempt",
+        "responded",
+        "used"
+      ]
+    },
+    "usage": {
+      "file": "boundary-usage.jsonl",
+      "sha256": "ce70982def3782435e3a711ad9d32618c5d9432684201ba1de5227c3d65e6836",
+      "bytes": 59,
+      "rows": 1,
+      "fields": [
+        "id",
+        "person",
+        "success",
+        "period"
+      ]
+    },
+    "margins": {
+      "file": "boundary-margins.jsonl",
+      "sha256": "fa0a8c793e817c240412be35927bde7004d7573c182594ea1dc811a35089af93",
+      "bytes": 200,
+      "rows": 3,
+      "fields": [
+        "id",
+        "area",
+        "age",
+        "lower",
+        "upper"
+      ]
+    }
+  }
+}

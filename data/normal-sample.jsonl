@@ -1,0 +1,3 @@
+{"age": "old", "area": "A", "cluster": "c1", "consented": false, "id": "u1", "inclusion_probability": 0.5}
+{"age": "young", "area": "A", "cluster": "c1", "consented": true, "id": "u2", "inclusion_probability": 0.5}
+{"age": "old", "area": "B", "cluster": "c2", "consented": true, "id": "u3", "inclusion_probability": 0.25}

@@ -1,0 +1,3 @@
+{"attempt": 1, "id": "k1", "person": "u1", "responded": false, "used": null}
+{"attempt": 1, "id": "k2", "person": "u2", "responded": true, "used": true}
+{"attempt": 1, "id": "k3", "person": "u3", "responded": false, "used": null}

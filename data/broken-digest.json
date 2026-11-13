@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "tables": {
+    "sample": {
+      "file": "normal-sample.jsonl",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "bytes": 322,
+      "rows": 3,
+      "fields": [
+        "id",
+        "area",
+        "age",
+        "cluster",
+        "inclusion_probability",
+        "consented"
+      ]
+    },
+    "contacts": {
+      "file": "normal-contacts.jsonl",
+      "sha256": "dcc6e461fd49d96891d8eacc7543616ef9488d440bc220861df06719b0d65e38",
+      "bytes": 230,
+      "rows": 3,
+      "fields": [
+        "id",
+        "person",
+        "attempt",
+        "responded",
+        "used"
+      ]
+    },
+    "usage": {
+      "file": "normal-usage.jsonl",
+      "sha256": "ce70982def3782435e3a711ad9d32618c5d9432684201ba1de5227c3d65e6836",
+      "bytes": 59,
+      "rows": 1,
+      "fields": [
+        "id",
+        "person",
+        "success",
+        "period"
+      ]
+    },
+    "margins": {
+      "file": "normal-margins.jsonl",
+      "sha256": "fa0a8c793e817c240412be35927bde7004d7573c182594ea1dc811a35089af93",
+      "bytes": 200,
+      "rows": 3,
+      "fields": [
+        "id",
+        "area",
+        "age",
+        "lower",
+        "upper"
+      ]
+    }
+  }
+}
